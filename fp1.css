@@ -4,7 +4,7 @@
 .postblock .postcontent{
     background: linear-gradient(to right, #e6ffff, #fff 512px);
 }
-}
+
 .userlevel {
     width: 100%;
     text-align: right;
@@ -44,6 +44,7 @@ span.userlevel {
     padding-top: 1.7rem;
     top: 0px;
 }
+
 .navbar-item.darker::after {
     content: attr(title);
 }
