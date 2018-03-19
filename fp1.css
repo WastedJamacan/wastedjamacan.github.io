@@ -1,8 +1,8 @@
 .postblock.postblock-own .postcontent{
-    background-image: url(https://wastedjamacan.github.io/postgb1.png); 
+    background-image: url(https://wastedjamacan.github.io/postbg1.png); 
 }
 .postblock .postcontent{
-    background-image: url(https://wastedjamacan.github.io/postgb1.png); 
+    background-image: url(https://wastedjamacan.github.io/postbg1.png); 
 }
 .postblock .postcontent::after{
     content : "";
