@@ -1,8 +1,13 @@
 .postblock.postblock-own .postcontent{
     background: linear-gradient(to right, #eefebf, #fff 512px);
+    background-image: url(https://wastedjamacan.github.io/postbg1.png);
 }
 .postblock .postcontent{
-    background: linear-gradient(to right, #e6ffff, #fff 512px);
+    background: linear-gradient(to right, #ebffff, #fff 512px);
+    background-image: url(https://wastedjamacan.github.io/postbg1.png);
+}
+.postblock.postblock-read .postcontent {
+    background-image: url(https://wastedjamacan.github.io/postbg1.png);
 }
 
 .userlevel {
@@ -71,4 +76,13 @@ span.userlevel {
     max-height: 200px;
     overflow-y: auto;
     padding: 020px;
+}
+
+html::before {
+    background-image: url('https://i.imgur.com/xPLCnzb.gif') !important;
+    background-attachment: fixed;
+    background-size: 100%100%;
+    transform: scale(1.1);
+    background-position: center center;
+    filter: blur(10px);
 }
