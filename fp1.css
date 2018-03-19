@@ -1,16 +1,26 @@
 .postblock.postblock-own .postcontent{
-    background: linear-gradient(to right, #eefebf, #fff 512px);
+    background-image: url(https://wastedjamacan.github.io/postgb1.png); 
 }
 .postblock .postcontent{
-    background: linear-gradient(to right, #ebffff, #fff 512px);
+    background-image: url(https://wastedjamacan.github.io/postgb1.png); 
 }
 .postblock .postcontent::after{
     content : "";
     display: block;
     position: absolute;
     top: 0;
-    left: 0;
-    background-image: url(https://wastedjamacan.github.io/postgb1.png); 
+    background: linear-gradient(to right, #ebffff, #fff 512px);
+    width: 100%;
+    height: 100%;
+    opacity : 1;
+    z-index: -1;
+}
+.postblock.postblock-own .postcontent::after{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, #eefebf, #fff 512px);
     width: 100%;
     height: 100%;
     opacity : 1;
